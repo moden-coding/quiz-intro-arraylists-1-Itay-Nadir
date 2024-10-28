@@ -10,17 +10,17 @@ public class App {
     // ArrayList and this should still work.
     public static void main(String[] args) throws Exception {
 
-        ArrayList<String> Names = new ArrayList<>();
+        ArrayList<String> names = new ArrayList<>();
 
-        Names.add("Java");
-        Names.add("Python");
-        Names.add("JavaScript");
-        Names.add("Itay");
+        names.add("Java");
+        names.add("Python");
+        names.add("JavaScript");
+        names.add("Itay");
 
         int variable = 0;
-        while (variable < Names.size());
+        while (variable < names.size())
         {
-            System.out.println((Names).get(variable));
+            System.out.println(names.get(variable));
             variable++;
 
         }
